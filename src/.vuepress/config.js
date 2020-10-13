@@ -44,6 +44,17 @@ module.exports = {
       showTitle: true,
     },
 
+    footer: {
+      // Show 'Powered by VuePress' or not (enable it to support VuePress)
+      poweredBy: true,
+
+      // Show the theme that you are using (enable it to support this theme) (please do not disable it, haha)
+      poweredByTheme: true,
+
+      // Add your custom footer (HTML supported)
+      custom: 'Copyright 2020-present <a href="https://github.com/okzwRyu" target="_blank">okzwRyu</a> | MIT License',
+    },
+
     // Show the last updated time of your posts
     lastUpdated: true,
 
@@ -51,8 +62,15 @@ module.exports = {
     nav: [
       { text: "Home", link: "/", exact: true },
       { text: "Posts", link: "/posts/", exact: false },
-      { text: "About", link: "/about/", exact: true },
+      { text: "About", link: "/about/", exact: false },
     ],
+
+    smoothScroll: true,
+
+    // Configs for vuepress-plugin-zooming
+    zooming: {
+      // @see https://vuepress.github.io/en/plugins/zooming
+    },
 
     // Comments config. See the [Posts Comments] section below.
     comments: {
@@ -71,7 +89,6 @@ module.exports = {
     defaultPages: {
       home: true,
       posts: true,
-    //   about: true,
     },
   },
   markdown: {
