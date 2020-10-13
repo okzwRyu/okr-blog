@@ -17,12 +17,12 @@ module.exports = {
         organization: '',
         // Your avatar image
         // Set to external link
+        // TODO: Add image file.
         avatar: 'https://www.meteorlxy.cn/assets/img/avatar.jpg',
         // Or put into `.vuepress/public` directory. E.g. `.vuepress/public/img/avatar.jpg`
         // avatar: '/img/avatar.jpg',
 
         sns: {
-          // Github account and link
           github: {
             account: 'okzwRyu',
             link: 'https://github.com/okzwRyu'
@@ -34,7 +34,7 @@ module.exports = {
         // The background of the header. You can choose to use an image, or to use random pattern (geopattern)
         background: {
           // URL of the background image. If you set the URL, the random pattern will not be generated, and the `useGeo` will be ignored.
-          url: '/assets/img/bg.jpg',
+        //   url: '/assets/img/bg.jpg',
   
           // Use random pattern. If you set it to `false`, and you don't set the image URL, the background will be blank.
           useGeo: true,
@@ -51,12 +51,13 @@ module.exports = {
       nav: [
         { text: 'Home', link: '/', exact: true },
         { text: 'Posts', link: '/posts/', exact: false },
+        { text: 'About', link: '/about/', exact: false }
       ],
   
       // Comments config. See the [Posts Comments] section below.
       comments: {
-        owner: 'meteorlxy',
-        repo: 'vuepress-theme-meteorlxy',
+        owner: 'okzwRyu',
+        repo: 'OKR-BLOG',
         clientId: 'MY_CLIENT_ID',
         clientSecret: 'MY_CLIENT_SECRET',
       },
@@ -72,6 +73,7 @@ module.exports = {
         home: true,
         // Allow theme to add Posts page (url: /posts/)
         posts: true,
+        about: true,
       },
     },
   }

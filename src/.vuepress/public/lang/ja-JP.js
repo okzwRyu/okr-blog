@@ -5,6 +5,7 @@ module.exports = {
     categories: 'カテゴリー',
     tag: 'タグ',
     tags: 'タグ',
+    about: '自己紹介',
   
     allCategories: '全て',
     search: '検索',
