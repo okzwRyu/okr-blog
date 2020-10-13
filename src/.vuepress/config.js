@@ -12,7 +12,7 @@ module.exports = {
     personalInfo: {
       nickname: "OKR",
       description: "駆け出しSE",
-      email: "okr_1205@outlook.jp",
+    //   email: "okr_1205@outlook.jp",
       location: "Tokyo, Japan",
       organization: "",
       // Your avatar image
