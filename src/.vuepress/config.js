@@ -62,6 +62,8 @@ module.exports = {
     nav: [
       { text: "Home", link: "/", exact: true },
       { text: "Posts", link: "/posts/", exact: false },
+      { text: "Tags", link: "/posts/tags/", exact: false },
+      { text: "Categories", link: "/posts/categories/", exact: false },
       { text: "About", link: "/about/", exact: false },
     ],
 

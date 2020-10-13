@@ -1,6 +1,6 @@
 module.exports = {
   home: "ホーム",
-  posts: "ポスト",
+  posts: "記事一覧",
   category: "カテゴリー",
   categories: "カテゴリー",
   tag: "タグ",
