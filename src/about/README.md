@@ -1,3 +1,6 @@
+---
+title: 自己紹介
+---
 ## profile  
  - 名前: <ruby><rb>OKR</rb><rp>（</rp><rt>オカリュウ</rt><rp>）</rp></ruby>
  - 職業: システムエンジニア
