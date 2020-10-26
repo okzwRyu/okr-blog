@@ -37,6 +37,12 @@ module.exports = {
       custom: 'Copyright 2020-present <a href="https://github.com/okzwRyu" target="_blank">okzwRyu</a> | MIT License',
     },
 
+    infoCard: {
+      headerBackground: {
+        useGeo: true,
+      },
+    },
+
     lastUpdated: true,
     nav: [
       { text: "Home", link: "/", exact: true },
